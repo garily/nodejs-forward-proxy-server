@@ -6,10 +6,12 @@
 * ```net```
 
 
-### Usage
+### Installation and Usage
 #### Clone the repository:  
     $ git clone https://github.com/gl14916/nodejs-forward-proxy-server.git  
     $ cd nodejs-forward-proxy-server
+#### Install package dependencies:
+    $ npm install
 
 #### Start forward proxy server using the following command:
 ```$ npm start``` or ```$ node proxy.js```  
