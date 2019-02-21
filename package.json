@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-forward-proxy-server",
+  "version": "1.0.0",
+  "description": "A Node.JS forward proxy server",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gl14916/nodejs-forward-proxy-server.git"
+  },
+  "keywords": [
+    "forward",
+    "proxy"
+  ],
+  "author": "Gary Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gl14916/nodejs-forward-proxy-server/issues"
+  },
+  "homepage": "https://github.com/gl14916/nodejs-forward-proxy-server#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "net": "^1.0.2",
+    "url": "^0.11.0"
+  }
+}
