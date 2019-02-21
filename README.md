@@ -15,7 +15,7 @@
 ```$ npm start``` or ```$ node proxy.js```  
 
 ### Specification
-By default, the proxy server listens on port ```2560```, change it in the last line of code (```proxy.js:75```)  
+By default, this proxy server listens on port ```2560```, it can be changed by modifying the last line of code (```proxy.js:75```)  
 
 If you wish to use a port number under ```1024```, you need to run this proxy server as root:  
 ```$ sudo npm start``` or ```$ sudo node proxy.js```
