@@ -1,10 +1,10 @@
 # A Node.JS Forward Proxy Server
+An HTTP proxy tunnel for both HTTP and HTTPS traffic.
 
 ### Packages used:
 * ```http```
 * ```url```
 * ```net```
-
 
 ### Installation and Usage
 #### Clone the repository:  
