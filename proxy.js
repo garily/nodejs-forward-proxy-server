@@ -18,19 +18,19 @@ function httpOptions(clientReq, clientRes) {
   };
 
   // create socket connection on behalf of client, then pipe the response to client response (pass it on)
-  var serverSocket = http.request(options, function (res) {
+  var serverConnection = http.request(options, function (res) {
     clientRes.writeHead(res.statusCode, res.headers)
     res.pipe(clientRes);
   });
 
-  clientReq.pipe(serverSocket);
+  clientReq.pipe(serverConnection);
 
   clientReq.on('error', (e) => {
     console.log('client socket error: ' + e);
   });
 
-  serverSocket.on('error', (e) => {
-    console.log('server socket error: ' + e);
+  serverConnection.on('error', (e) => {
+    console.log('server connection error: ' + e);
   });
 }
 
